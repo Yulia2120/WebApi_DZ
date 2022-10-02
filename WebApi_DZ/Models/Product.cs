@@ -1,6 +1,6 @@
 ﻿namespace WebApi_DZ
 {
-    public class Products
+    public class Product
     {
         public int Id { get; set; }
         public int ProductId { get; set; }
@@ -12,7 +12,7 @@
       
 
       
-        public Products(int id, int productId, string title, string manufactures, string countryOfManufacture, decimal price)
+        public Product(int id, int productId, string title, string manufactures, string countryOfManufacture, decimal price)
         {
             Id = id;
             ProductId = productId;
